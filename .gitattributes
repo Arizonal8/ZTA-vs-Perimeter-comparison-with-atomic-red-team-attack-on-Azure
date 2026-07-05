@@ -1,0 +1,23 @@
+# GitHub Linguist language detection
+# Forces GitHub to display Python, PowerShell, HCL, and Shell
+
+*.tf                        linguist-language=HCL
+*.py                        linguist-language=Python
+*.ps1                       linguist-language=PowerShell
+*.sh                        linguist-language=Shell
+*.gitattributes             linguist-language=Text
+
+# Prevent README/docs swamping the language bar
+*.md                        linguist-documentation=true
+LICENSE                     linguist-documentation=true
+
+# These .txt files ARE PowerShell scripts — tell GitHub
+attack-simulation/attack-commands.txt    linguist-language=PowerShell
+vms/attacker-vm/setup-commands.txt       linguist-language=PowerShell
+vms/dc-zta/setup-commands.txt            linguist-language=PowerShell
+vms/fs-zta/setup-commands.txt            linguist-language=PowerShell
+vms/dc-conventional/setup-commands.txt  linguist-language=PowerShell
+vms/fs-conventional/setup-commands.txt  linguist-language=PowerShell
+zta-security-controls/commands.txt      linguist-language=PowerShell
+infrastructure/commands.txt             linguist-language=Shell
+data-analysis/commands.txt              linguist-language=Python

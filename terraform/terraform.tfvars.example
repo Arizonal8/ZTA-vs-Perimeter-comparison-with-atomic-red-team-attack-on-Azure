@@ -1,0 +1,5 @@
+# Copy this file to terraform.tfvars and fill in real values.
+# terraform.tfvars is gitignored and must never be committed.
+
+subscription_id = "00000000-0000-0000-0000-000000000000"
+admin_password  = "ChangeMe-UseAStrongPassword!"
