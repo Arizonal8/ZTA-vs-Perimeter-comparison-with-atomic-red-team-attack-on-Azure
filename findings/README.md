@@ -2,7 +2,7 @@
 
 > **Arinze Ihekweme — Sheffield Hallam University — MSc Dissertation 2026**
 > Module: Research Methods and Strategies (55-710260)
-> Supervisor: Dr. Sina Pournouri
+> Supervisor: Jack Jacobi
 
 ---
 
