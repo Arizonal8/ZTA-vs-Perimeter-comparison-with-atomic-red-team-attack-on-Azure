@@ -214,6 +214,7 @@ python3 analysis.py
 ## References
 
 ### Primary Sources
+
 | Reference | Contribution |
 |---|---|
 | [Rose et al. (2020) — NIST SP 800-207: Zero Trust Architecture](https://doi.org/10.6028/NIST.SP.800-207) | Foundational ZTA framework — seven tenets and three implementation approaches |
@@ -222,18 +223,18 @@ python3 analysis.py
 | [Sarkar et al. (2022) — Security of Zero Trust Networks](https://doi.org/10.3390/su14181213) | Comparative ZTA evaluation — extends with genuine attack tooling |
 
 ### Supporting Sources
+
 | Reference | Role |
 |---|---|
-| [Chin et al. (2024) — Cloud Misconfiguration Detection](https://doi.org/10.1145/3578244) | Azure Sentinel detection benchmark — 0.86s mean detection time |
-| [Dakic et al. (2025) — Implementing Zero Trust in Azure](https://doi.org/10.1016/j.cose.2024.103743) | Practitioner ZTA deployment evidence |
-| [Landauer et al. (2024) — MITRE ATT&CK in Evaluations](https://doi.org/10.1016/j.cose.2023.103621) | Justification for ATT&CK as evaluation framework |
-| [Alquwayzani et al. (2024) — ZTA in Cloud Computing](https://doi.org/10.1109/ACCESS.2024.3384848) | Systematic literature review |
+| [Dakić, Morić, Kapulica & Regvart (2025) — Analysis of Azure ZTA for Mid-Size Organizations](https://doi.org/10.3390/jcp5010002) | Practitioner ZTA deployment evidence — Azure-specific implementation study |
+| [Landauer et al. (2024) — MITRE ATT&CK in Security Evaluations](https://doi.org/10.1016/j.cose.2023.103621) | Justification for ATT&CK as evaluation framework |
+| [CISA (2021) — Alert AA20-352A: SolarWinds APT Compromise](https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-352a) | Primary source for SolarWinds supply chain attack — perimeter failure case study |
+| [SOCRadar (2022) — Microsoft Data Leak and BlueBleed Investigation](https://socradar.io/microsoft-data-leak-and-bluebleed-investigation-65000-entities-111-countries/) | Primary source for BlueBleed Azure Blob Storage misconfiguration incident |
 | [MITRE ATT&CK Enterprise Matrix v15.1](https://attack.mitre.org/matrices/enterprise/) | Source of technique IDs used throughout |
 | [Red Canary — Invoke-AtomicRedTeam v2.1.0](https://github.com/redcanaryco/invoke-atomicredteam) | Attack execution framework |
 | [US Executive Order 14028 (2021)](https://www.federalregister.gov/documents/2021/05/17/2021-10460/improving-the-nations-cybersecurity) | Policy mandate for ZTA adoption |
 | [Microsoft Defender for Cloud Docs](https://learn.microsoft.com/en-us/azure/defender-for-cloud/) | Technical reference for Defender Standard tier |
-
----
+| [Ihekwema (2026) — Azure Cloud Honeypot and SOC Lab](https://github.com/Arizonal8/Azure-Cloud-Honeypot-SOC-Lab-Unauthorised-Access-Monitoring) | Prior empirical observation of external threat actor scanning frequency on Azure public IPs |
 
 ## Ethical Statement
 
