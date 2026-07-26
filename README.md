@@ -10,7 +10,7 @@
 
 > **MSc Dissertation Research — Sheffield Hallam University**
 > Module 55-710260 · Research Methods and Strategies
-> **Author:** Arinze Ihekweme · **Supervisor:** Dr. Sina Pournouri · **June 2026**
+> **Author:** Arinze Ihekweme · **Supervisor:** Mark Jacobi · **June 2026**
 
 ---
 
