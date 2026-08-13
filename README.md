@@ -37,7 +37,7 @@
 
 | MITRE ATT&CK Category | ID | Conventional | ZTA | Result |
 |---|---|---|---|---|
-| Credential Theft | T1110.001 | Failed (wordlist gap) | Failed + 22s delay | Inconclusive |
+| Credential Theft | T1110.001 | NTLM bypass (not blocked) | NTLM bypass (not blocked) | NTLM authenticates directly against on-premises AD — Entra ID CA structurally un-interceptable |
 | Lateral Movement | T1021.002 | ✅ Succeeded 3/3 | ❌ Blocked 3/3 | **ZTA effective** |
 | Data Exfiltration | T1039 | ✅ Succeeded 3/3 | ❌ Blocked 3/3 | **ZTA effective** |
 | Privilege Escalation | T1078 | ✅ Succeeded 3/3 | ❌ Blocked 3/3 | **ZTA effective** |
