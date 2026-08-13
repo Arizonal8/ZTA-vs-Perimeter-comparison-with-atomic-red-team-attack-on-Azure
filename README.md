@@ -218,8 +218,7 @@ python3 analysis.py
 | Reference | Contribution |
 |---|---|
 | [Rose et al. (2020) — NIST SP 800-207: Zero Trust Architecture](https://doi.org/10.6028/NIST.SP.800-207) | Foundational ZTA framework — seven tenets and three implementation approaches |
-| [Kindervag (2010) — No More Chewy Centers](https://www.forrester.com/report/no-more-chewy-centers-introducing-the-zero-trust-model-of-information-security/RES56682) | Original "never trust, always verify" articulation |
-| [Wang et al. (2024) — Zero Trust Architecture in Public Cloud](https://doi.org/10.1186/s13677-024-00638-4) | Attack simulation methodology — 3 repetitions, MITRE ATT&CK, Atomic Red Team |
+| [Kindervag (2010) — No More Chewy Centers](https://www.forrester.com) | Original "never trust, always verify" articulation |
 | [Sarkar et al. (2022) — Security of Zero Trust Networks](https://doi.org/10.3390/su14181213) | Comparative ZTA evaluation — extends with genuine attack tooling |
 
 ### Supporting Sources
@@ -227,14 +226,15 @@ python3 analysis.py
 | Reference | Role |
 |---|---|
 | [Dakić, Morić, Kapulica & Regvart (2025) — Analysis of Azure ZTA for Mid-Size Organizations](https://doi.org/10.3390/jcp5010002) | Practitioner ZTA deployment evidence — Azure-specific implementation study |
-| [Landauer et al. (2024) — MITRE ATT&CK in Security Evaluations](https://doi.org/10.1016/j.cose.2023.103621) | Justification for ATT&CK as evaluation framework |
+| [Wang, Z. et al. (2024) — Red Team Automated Testing](https://doi.org/10.1016/j.cose.2024.103945) | Justification for Atomic Red Team selection — ranked top 3 across 80 evaluation criteria |
+| [Landauer et al. (2024) — Red Team Redemption: Comparison of Adversary Emulation Tools](https://doi.org/10.1109/TrustCom63139.2024.00043) | Structured comparison of 9 open-source adversary emulation tools |
 | [CISA (2021) — Alert AA20-352A: SolarWinds APT Compromise](https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-352a) | Primary source for SolarWinds supply chain attack — perimeter failure case study |
 | [SOCRadar (2022) — Microsoft Data Leak and BlueBleed Investigation](https://socradar.io/microsoft-data-leak-and-bluebleed-investigation-65000-entities-111-countries/) | Primary source for BlueBleed Azure Blob Storage misconfiguration incident |
 | [MITRE ATT&CK Enterprise Matrix v15.1](https://attack.mitre.org/matrices/enterprise/) | Source of technique IDs used throughout |
 | [Red Canary — Invoke-AtomicRedTeam v2.1.0](https://github.com/redcanaryco/invoke-atomicredteam) | Attack execution framework |
 | [US Executive Order 14028 (2021)](https://www.federalregister.gov/documents/2021/05/17/2021-10460/improving-the-nations-cybersecurity) | Policy mandate for ZTA adoption |
 | [Microsoft Defender for Cloud Docs](https://learn.microsoft.com/en-us/azure/defender-for-cloud/) | Technical reference for Defender Standard tier |
-| [Ihekwema (2026) — Azure Cloud Honeypot and SOC Lab](https://github.com/Arizonal8/Azure-Cloud-Honeypot-SOC-Lab-Unauthorised-Access-Monitoring) | Prior empirical observation of external threat actor scanning frequency on Azure public IPs |
+| [Ihekwema (2026) — Azure Cloud Honeypot and SOC Lab](https://github.com/Arizonal8/Azure-Cloud-Honeypot-SOC-Lab-Unauthorised-Access-Monitoring) | Prior empirical observation of external threat scanning frequency on Azure public IPs |
 
 ## Ethical Statement
 
